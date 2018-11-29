@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(190, 16, 16);
+    padding: 30px;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    height: 810px;
+    background: orange;
+    padding: 20px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: blue;
+    height: 810px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
