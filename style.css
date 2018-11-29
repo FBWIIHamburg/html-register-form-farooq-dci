@@ -36,6 +36,6 @@ input[type=submit]:hover {
 h3 {
     color: #293f50;
     font-size: 35px;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 3px 2px 4px #000000;
     margin-top: 0px;
 }
